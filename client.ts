@@ -1,4 +1,4 @@
-var mqtt		=	require('mqtt');
+import mqtt = require("mqtt");
 var client	=	mqtt.connect('mqtt://localhost:1883', {
 	will: { topic: '/LW', payload: 'The client ran away...' }
 });

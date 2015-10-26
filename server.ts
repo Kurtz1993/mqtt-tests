@@ -1,4 +1,4 @@
-var mosca = require('mosca');
+import mosca	=	require("mosca");
 
 var backendSettings = {
 	type: 'mongo',
